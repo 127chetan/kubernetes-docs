@@ -2,19 +2,20 @@
 reviewers:
 - eparis
 - pmorie
-title: Configuring Redis using a ConfigMap
+title: Configure Redis using a ConfigMap
 content_type: tutorial
 weight: 30
 ---
 
 <!-- overview -->
 
-This page provides a real world example of how to configure Redis using a ConfigMap and builds upon the [Configure a Pod to Use a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/) task. 
+In this tutorial, we will walk through a real world example of how to configure Redis using a ConfigMap.
 
+See [Configure a Pod to Use a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/) for more information about ConfigMaps. 
+---
+## {{% heading "What you'll learn" %}}
 
-
-## {{% heading "objectives" %}}
-
+In this tutorial, you’ll learn how to do the following tasks:
 
 * Create a ConfigMap with Redis configuration values
 * Create a Redis Pod that mounts and uses the created ConfigMap
